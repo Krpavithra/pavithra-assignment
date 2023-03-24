@@ -5,8 +5,8 @@ public class Students {
 		System.out.println("student Id "+stuId);
 		}
    public void getStudentinfo(int stuId,String stuName) {
-	   System.out.printf("student Id"+stuId,"student Name"+stuName );
-	   
+	   System.out.println("student Id"+stuId+"student Name"+stuName );
+	  
   }
    public void getStudentinfo(String stuMailId,long stuMobNumber ) {
 	   System.out.println("student MailId is"+stuMailId +"student mobile number"+ stuMobNumber);
